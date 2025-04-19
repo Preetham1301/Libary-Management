@@ -1,68 +1,50 @@
-# Library Management System
+# Online Library System
 
-This project is a Library Management System designed to help users manage books, members, and transactions efficiently. It provides features for adding, updating, and deleting books, managing member records, and tracking book issues and returns.
+This is a web application for managing an online library system. It includes features for browsing, adding, and managing books, with React as the frontend framework.
 
-## Features
+## Project Structure
 
-- Add, update, and delete book records
-- Manage member information
-- Issue and return books
-- Track overdue books and fines
-- Search functionality for books and members
-- User-friendly interface
+- **src/components**: Contains the main UI components for the library system.
 
-## Technologies Used
+  - **AddBook.jsx**: Component for adding a new book, includes fields like book title, author, rating, etc.
+  - **Body.jsx**: Main body layout of the application.
+  - **BrowserBooks.jsx**: Main component for browsing the list of available books.
+  - **BrowserBookFulldata.jsx**: Handles browsing specific book details.
+  - **Error.jsx**: Handles and displays error messages.
+  - **FilterCategory.jsx**: Provides functionality to filter books by categories.
+  - **GenreBooks.jsx**: Allows filtering books based on genres.
+  - **Header.jsx**: Contains the header and navigation elements.
+  - **PopularBooks.jsx**: Displays a list of popular books.
+  - **PopularBooksFulldetails.jsx**: Displays detailed information about a selected book.
 
-- Programming Language: (Specify language, e.g., Python, Java, C#)
-- Framework: (Specify if any, e.g., Django, .NET, Spring Boot)
-- Database: (Specify, e.g., SQLite, MySQL, MongoDB)
-- UI: (Specify, e.g., Tkinter, React, Angular, WPF)
+- **src/utils**: Contains utility files.
 
-## Getting Started
+  - **Store.js** :contains store
+  - **books.js**: Contains functions or data related to book management.
+  - **bookSlice.js**: Redux slice or context handling book-related states.
+  - **popularBooks.js**: Handles data or functions related to popular books.
 
-1. Clone the repository:
+  ## Requirements
 
-```bash
-git clone https://github.com/yourusername/Library-Management.git
-```
+Before you begin, ensure you have the following installed:
 
-2. Install dependencies:
+1-Node.js (v14 or later)
+npm or yarn
 
-```bash
-# Example for Python
-pip install -r requirements.txt
-```
+2-Navigate into the project directory i.e cd library-management
 
-3. Set up the database:
+3-Install the dependencies: i.e npm install
 
-- (Provide instructions for database setup)
+# or if using yarn
 
-4. Run the application:
+yarn
 
-```bash
-# Example for Python
-python main.py
-```
+4.To run the development server with Vite: i.e npm run dev
 
-## Folder Structure
+# Project uploaded on github , please find the link
 
-```
-Libary-Management/
-├── src/                # Source code
-├── docs/               # Documentation
-├── tests/              # Test cases
-├── requirements.txt    # Dependencies
-└── README.md           # Project documentation
-```
+https://github.com/Preetham1301/Libary-Management
 
-## Contributing
+# Project deployed, please find the link
 
-Contributions are welcome! Please open issues or submit pull requests for improvements.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contact
-
-For questions or support, contact [your-email@example.com].
+https://librarymanagementsystemapp.netlify.app/
