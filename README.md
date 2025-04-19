@@ -47,4 +47,4 @@ https://github.com/Preetham1301/Libary-Management
 
 # Project deployed, please find the link
 
-https://librarymanagementsystemapp.netlify.app/
+https://libary-management-iota.vercel.app/
